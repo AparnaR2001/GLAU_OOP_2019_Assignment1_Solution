@@ -7,7 +7,6 @@ import java.util.Scanner;
 // uncomment the above line to use input in your program.
 
 public class Gravity {
-	// TODO 1: Create the main method
 	public static void main(java.lang.String[] args) {
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
