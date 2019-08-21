@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class Gravity {
 	public static void main(java.lang.String[] args) {
         Scanner scanner = new Scanner(System.in);
-        final double gravity = 9.8;
+        final double GRAVITY = 9.8;
         double time = scanner.nextDouble();
-        double speed = (time * gravity);
-        double distance = (time * gravity * time) / 2;
+        double speed = (time * GRAVITY);
+        double distance = (time * GRAVITY * time) / 2;
         System.out.println("The speed of the object at " + time + " seconds after its release is " + speed + " and the distance the object has travelled in the " + time + " seconds after the relase is " + distance);
 
 	}
